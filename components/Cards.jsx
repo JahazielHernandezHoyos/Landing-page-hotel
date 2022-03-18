@@ -9,7 +9,7 @@ const Cards = ({imgSrc,header, text}) => {
               <h3>{header}</h3>
               <p>{text}</p>
           </div>
-          <button>Read me</button>
+          <button className="btn btn-danger">Read me</button>
       </div>
   )
 }
