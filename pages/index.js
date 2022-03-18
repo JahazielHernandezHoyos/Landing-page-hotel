@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Cards from "../components/Cards";
 import ContactUs from "../components/ContactUs";
 import Cardsinfo from "../info/cardsinfo";
+import Carousel from "../components/Carousel"
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         crossorigin="anonymous"
       ></script>
       <Navbar />
+      <Carousel />
       <div className="container">
         {Cardsinfo.map(({ img, header, text }) => {
           return <Cards imgSrc={img} header={header} text={text} />;

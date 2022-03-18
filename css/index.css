@@ -4,3 +4,12 @@ h1, h2, h3, li{
     font-family: 'Lobster', cursive;
     color: rgb(0, 0, 0);
 }
+
+carousel-item{
+    height: 100%;
+    
+}
+
+.bg-restaurante{
+    background: rgba(255, 0, 0, 0.658);
+}
