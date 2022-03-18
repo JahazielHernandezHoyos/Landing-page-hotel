@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Cards from "../components/Cards";
 import ContactUs from "../components/ContactUs";
 import Cardsinfo from "../info/cardsinfo";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 
 export default function Home() {
   return (
