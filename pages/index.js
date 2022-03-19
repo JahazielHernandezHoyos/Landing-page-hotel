@@ -25,7 +25,11 @@ export default function Home() {
       <section className="pt-5">
         <ContactUs />
       </section>
-      
+      <footer class="footer mt-auto pt-5 p-3">
+        <div class="container text-center">
+          <span class="text-muted">Sitio web realizado por <a href="https://www.icarus-solutions.es/">Icarus Solutions</a></span>
+        </div>
+      </footer>
     </body>
   );
 }
