@@ -13,7 +13,9 @@ const Carousel = () => {
           >
             <div className="container">
               <h2>Bienvenido a Restaurante</h2>
-              <p><button className="btn btn-outline-light">Ver Menú</button></p>
+              <p>
+                <button className="btn btn-outline-light">Ver Menú</button>
+              </p>
             </div>
           </div>
           <div
@@ -26,7 +28,9 @@ const Carousel = () => {
           >
             <div className="container">
               <h2>Contactanos</h2>
-              <p><button className="btn btn-outline-light">Siguenos en nuestras redes</button></p>
+              <p>
+                <button className="btn btn-outline-light">Contactar</button>
+              </p>
             </div>
           </div>
           <div
@@ -37,8 +41,10 @@ const Carousel = () => {
             }}
           >
             <div className="container">
-              <h2>3</h2>
-              <p>Web Developer</p>
+              <h2>Siguenos en nuestras redes sociales</h2>
+              <p>
+                <button className="btn btn-outline-light">Seguir</button>
+              </p>
             </div>
           </div>
         </div>
