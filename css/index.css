@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+card-img-top{
+    image-resolution: contain;
+}
 
-body, h3{
-    font-family: 'Lobster', cursive;
+body{
     color: #fff;
     background-color: rgba(0, 0, 0, 0.637);
+}
+
+h3, h1{
+    font-family: 'Lobster', cursive;
+    color: #fff;
 }
 
 .titulo {

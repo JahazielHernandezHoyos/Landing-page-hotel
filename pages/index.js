@@ -21,6 +21,8 @@ export default function Home() {
           return <Cards imgSrc={imgSrc} header={header} text={text} />;
         })}
         </div>
+      </section>
+      <section className="pt-5">
         <ContactUs />
       </section>
       

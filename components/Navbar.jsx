@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-restaurante sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-restaurante sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <h1 className="titulo">Restaurante</h1>
@@ -22,17 +22,17 @@ const Navbar = () => {
           <ul className="navbar-nav titulo ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link " href="#">
-                <h5 className="titulo">Menu</h5>
+                <h5>Menu</h5>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                <h5 className="titulo">Contacto</h5>
+                <h5>Contacto</h5>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                <h5 className="titulo">Sobre nosotros</h5>
+                <h5>Sobre nosotros</h5>
               </a>
             </li>
           </ul>
