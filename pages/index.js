@@ -16,13 +16,14 @@ export default function Home() {
       <Carousel />
       <section className="container">
         <h1 className="text-center p-5 mt-5">Menú</h1>
-      <div className="container">
+        <div className="row">
         {Cardsinfo.map(({ imgSrc, header, text }) => {
           return <Cards imgSrc={imgSrc} header={header} text={text} />;
         })}
+        </div>
         <ContactUs />
-      </div>
       </section>
+      
     </body>
   );
 }
