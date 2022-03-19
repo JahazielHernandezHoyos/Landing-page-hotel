@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
+body, h3{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
 .titulo {
   font-family: "Lobster", cursive;
-  color: rgb(255, 255, 255);
-}
-titulo.h1 {
-  font-family: "Lobster", cursive;
-  color: rgb(255, 0, 0);
+  color: white;
 }
 
 carousel-item {

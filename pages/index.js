@@ -4,7 +4,6 @@ import ContactUs from "../components/ContactUs";
 import Cardsinfo from "../info/cardsinfo";
 import Carousel from "../components/Carousel"
 
-
 export default function Home() {
   return (
     <body>
@@ -15,13 +14,15 @@ export default function Home() {
       ></script>
       <Navbar />
       <Carousel />
-      
+      <section className="container">
+        <h1 className="text-center p-5 mt-5">Menú</h1>
       <div className="container">
-        {Cardsinfo.map(({ img, header, text }) => {
-          return <Cards imgSrc={img} header={header} text={text} />;
+        {Cardsinfo.map(({ imgSrc, header, text }) => {
+          return <Cards imgSrc={imgSrc} header={header} text={text} />;
         })}
         <ContactUs />
       </div>
+      </section>
     </body>
   );
 }
