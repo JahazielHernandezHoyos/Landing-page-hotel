@@ -1,5 +1,8 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../public/css/bootstrap.min.css";
 import "../public/css/index.css";
+
+// import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 
