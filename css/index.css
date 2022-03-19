@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-h1, h2, h3, li{
+.titulo{
     font-family: 'Lobster', cursive;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+titulo.h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 0, 0);
 }
 
 carousel-item{
-    height: 100%;
+    height: 300px;
     
 }
 
 .bg-restaurante{
-    background: rgba(255, 0, 0, 0.658);
+    background: rgb(129, 6, 6);
 }
