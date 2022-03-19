@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../css/index.css";
+import "../public/css/index.css";
+
 
 
 export default function app({Component, pageProps}) {
